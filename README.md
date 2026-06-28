@@ -3,7 +3,8 @@
 SB 기반으로 만든 **Spring Boot + PostgreSQL + Nuxt 3(Vue) + TypeScript** 풀스택 POC입니다.
 
 이 프로젝트는 운영 투입용 완성본이 아니라, 여러 명이 협업하며 실제 시스템으로 확장할 수 있도록 만든 **풀스택 베이스라인**입니다.
-<img width="1908" height="947" alt="image" src="https://github.com/user-attachments/assets/c14d1a14-35b5-4f8a-beef-1acdd95944b2" />
+<img width="1908" height="947" alt="image" src="https://github.com/user-attachments/assets/c14d1a14-35b5-4f8a-beef-1acdd95944b2" /> ![Uploading image.png…]()
+
 
 
 ## 기술 스택
