@@ -3,8 +3,12 @@
 SB 기반으로 만든 **Spring Boot + PostgreSQL + Nuxt 3(Vue) + TypeScript** 풀스택 POC입니다.
 
 이 프로젝트는 운영 투입용 완성본이 아니라, 여러 명이 협업하며 실제 시스템으로 확장할 수 있도록 만든 **풀스택 베이스라인**입니다.
-<img width="1908" height="947" alt="image" src="https://github.com/user-attachments/assets/c14d1a14-35b5-4f8a-beef-1acdd95944b2" />
-<img width="1898" height="941" alt="image" src="https://github.com/user-attachments/assets/e11023eb-bc00-481b-968c-4971889c613f" />
+
+화면 미리보기
+
+<table> <tr> <td width="50%" align="center"> <strong>내업무 카드형</strong> <br/> <sub>배정된 프로젝트, WBS 업무, 진행률, 대기 업무를 한 화면에서 확인</sub> <br/><br/> <img src="https://github.com/user-attachments/assets/c14d1a14-35b5-4f8a-beef-1acdd95944b2" alt="내업무 카드형 화면" width="100%" /> </td> <td width="50%" align="center"> <strong>내업무 캘린더형</strong> <br/> <sub>WBS 계획일정 기준으로 업무 일정 및 미등록 업무 확인</sub> <br/><br/> <img src="https://github.com/user-attachments/assets/e11023eb-bc00-481b-968c-4971889c613f" alt="내업무 캘린더형 화면" width="100%" /> </td> </tr> </table>
+
+<br/>
 
 
 
