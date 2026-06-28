@@ -1,0 +1,29 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: pms-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: pms
+      POSTGRES_USER: pms
+      POSTGRES_PASSWORD: pms1234
+      TZ: Asia/Seoul
+    volumes:
+      - pms_postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./backend
+    container_name: pms-backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/pms
+      SPRING_DATASOURCE_USERNAME: pms
+      SPRING_DATASOURCE_PASSWORD: pms1234
+
+volumes:
+  pms_postgres_data:

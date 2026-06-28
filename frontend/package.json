@@ -1,0 +1,27 @@
+{
+  "name": "pms-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --host 0.0.0.0 --port 3000",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "typecheck": "nuxi typecheck",
+    "lint": "echo \"lint rule placeholder: add eslint before shared development\""
+  },
+  "dependencies": {
+    "@nuxt/ui": "2.16.0",
+    "nuxt": "3.11.2",
+    "vue": "3.4.21",
+    "vue-router": "4.3.0"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "vue-tsc": "2.0.16"
+  },
+  "overrides": {
+    "nuxi": "3.11.1",
+    "nitropack": "2.9.6"
+  }
+}
